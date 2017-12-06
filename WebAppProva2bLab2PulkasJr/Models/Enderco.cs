@@ -13,5 +13,7 @@ namespace WebAppProva2bLab2PulkasJr.Models
         public string CEP { get; set; }
         public string Numero { get; set; }
 
+        public virtual Socio Socio { get; set; }
+
     }
 }

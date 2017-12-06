@@ -10,5 +10,10 @@ namespace WebAppProva2bLab2PulkasJr.Models
         public int SevicoId { get; set; }
         public string Descricao { get; set; }
 
+        public virtual  List<Socio> Socios { get; set; }
+        public virtual List<Clube> Clubes { get; set; }
+
+
+
     }
 }

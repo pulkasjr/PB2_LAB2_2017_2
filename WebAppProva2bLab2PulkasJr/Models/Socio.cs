@@ -11,5 +11,7 @@ namespace WebAppProva2bLab2PulkasJr.Models
         public string Nome { get; set; }
         public string Email { get; set; }
 
+        public virtual Clube Clube { get; set; }
+        public virtual List <Enderco> Enderecos { get; set; }
     }
 }

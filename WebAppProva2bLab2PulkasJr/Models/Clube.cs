@@ -12,5 +12,10 @@ namespace WebAppProva2bLab2PulkasJr.Models
         public string CNPJ { get; set; }
         public string Descricao { get; set; }
 
+        public virtual  List<Socio> Socios { get; set; }
+        public virtual Enderco Endereco { get; set; }
+
+
+
     }
 }
