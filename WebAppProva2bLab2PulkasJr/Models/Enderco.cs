@@ -14,6 +14,7 @@ namespace WebAppProva2bLab2PulkasJr.Models
         public string Numero { get; set; }
 
         public virtual Socio Socio { get; set; }
+       
 
     }
 }
